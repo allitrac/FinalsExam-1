@@ -15,7 +15,6 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         FragmentManager fm = getSupportFragmentManager();
-        VideoListFragment videoListFragment =
-                (VideoListFragment) fm.findFragmentById(R.id.videoListFragment);
+        VideoListFragment videoListFragment = (VideoListFragment) fm.findFragmentById(R.id.videoListFragment);
     }
 }

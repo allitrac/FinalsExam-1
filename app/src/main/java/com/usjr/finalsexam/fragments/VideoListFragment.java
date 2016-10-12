@@ -20,7 +20,7 @@ import java.util.ArrayList;
 public class VideoListFragment extends Fragment implements AdapterView.OnItemClickListener {
 
     public interface OnVideoSelectedListener {
-        void videoSelectedListener(Video video);
+//        void videoSelectedListener(Video video);
     }
 
     private VideoListAdapter        mAdapter;

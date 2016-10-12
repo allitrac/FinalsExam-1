@@ -33,6 +33,8 @@ public class VideoActivity extends YouTubeBaseActivity {
             @Override
             public void onInitializationSuccess(YouTubePlayer.Provider provider,
                                                 YouTubePlayer youTubePlayer, boolean b) {
+
+                //having changes from "aSdFg123" into videoId
                 youTubePlayer.loadVideo(videoId);
             }
 
@@ -43,6 +45,9 @@ public class VideoActivity extends YouTubeBaseActivity {
             }
         };
 
+
+
+        //DO NOT modify this code:
         mYouTubePlayerView.initialize(
                 "AIzaSyBkO-xekoxTzDKdC9jR2KCwT-B1lmFbIlI",
                 mYoutubeInitializeListener);
